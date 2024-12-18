@@ -4,8 +4,9 @@
   </main>
 </template>
 <style lang="scss" scoped>
-div{
-  background: #f28f59;
+@use '@/assets/scss/_var.scss' as *;
+div {
+  background: $theme-color;
   height: 300px;
   width: 100%;
 }
