@@ -1,1 +1,6 @@
+@use 'sass:color';
 $theme-color: #f28f59;
+$second-color: #9c9696;
+$second-dark-color: #504c4c;
+
+$lightened-theme-color: color.adjust($theme-color, $lightness: 25%);

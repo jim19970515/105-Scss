@@ -3,3 +3,8 @@
   justify-content: $j-content;
   align-items: $a-items;
 }
+@mixin pad {
+  @media (max-width: 768px) {
+    @content;
+  }
+}
