@@ -1,31 +1,11 @@
 <script setup>
-import navber from './HomeNavber.vue';
+import navber from './HeaderNavber.vue'
+import tab from './HeaderTab.vue'
 </script>
 <template>
   <header>
-    <navber/>
-    <div>
-      <ul class="header-tab">
-        <li style="color: #E96117;">找美食</li>
-        <li>早餐</li>
-        <li>午餐</li>
-        <li>晚餐</li>
-        <li>宵夜</li>
-        <li>飯後甜點</li>
-      </ul>
-    </div>
+    <navber />
+    <tab />
   </header>
 </template>
-<style lang="scss">
-  .header-tab{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    column-gap: 40px;
-    height: 70px;
-    li{
-      font-weight:700;
-      color: #9C9696;
-    }
-  }
-</style>
+<style lang="scss"></style>
