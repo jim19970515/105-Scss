@@ -1,0 +1,6 @@
+$grid-num: 12;
+@for $i from 1 to $grid-num + 1 {
+  .col-#{$i} {
+    max-width: calc(100% * ($i/$grid-num));
+  }
+}
