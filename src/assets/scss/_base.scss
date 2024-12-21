@@ -1,0 +1,17 @@
+@use './var' as *;
+* {
+  box-sizing: border-box;
+}
+i {
+  color: $second-color;
+  font-size: 20px;
+}
+a,
+p,
+li,
+span {
+  font-size: 14px;
+}
+.container {
+  padding: 0 16px;
+}
